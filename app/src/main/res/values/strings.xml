@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">smart_comparator</string>
+    <string name="app_label">smart_comparator</string>
+    <string name="search_hint">srch_val</string>
+</resources>
