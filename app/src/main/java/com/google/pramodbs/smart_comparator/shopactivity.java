@@ -151,7 +151,7 @@ public class shopactivity extends AppCompatActivity {
         protected Void doInBackground(Void... params) {
 
             try {
-                Document amazondocument = Jsoup.connect("https://www.google.co.in/?gfe_rd=cr&ei=GrmUWLKOGe-K8Qfwha2YBA"+info).get();
+                Document amazondocument = Jsoup.connect("http://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords="+info).get();
                 //Document amazondocument = Jsoup.connect("http://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords="+info).get();
                 amazontitle=amazondocument.title();
 
